@@ -8,7 +8,9 @@ const App = () => {
   return (
     <>
      <Navbar />
+
       <HomePage />
+      
       <HomeCards/>
       <JobListings/>
     </>
