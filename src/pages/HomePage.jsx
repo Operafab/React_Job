@@ -10,7 +10,7 @@ const HomePage = () => {
 
       {/* Default props */}
       <Hero/>
-
+      
      
     </>
   )
