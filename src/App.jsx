@@ -1,12 +1,18 @@
-import "./App.css";
-import HomePage from "./pages/HomePage";
+import React from 'react'
+import HomePage from './pages/HomePage'
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
     <>
+     <Navbar />
       <HomePage />
     </>
-  );
+  )
 }
 
 export default App;
+
+
+
+
