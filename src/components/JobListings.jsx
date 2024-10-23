@@ -6,6 +6,8 @@ const JobListings = ({ isHome = false }) => {
     const [jobs, setJobs] = useState([])
     const [loading, setLoading] = useState(false)
     useEffect(() => {
+
+        // used to update a certain data, especially in backend where inputs are updated 
         const fetchJobs = async () => {
             const apiUrl = isHome ? "http://localhost:8000/jobs?_limit=3" : "http://localhost:8000/jobs";
             try {
