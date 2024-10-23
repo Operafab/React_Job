@@ -30,6 +30,12 @@ const AddJobPage = () => {
         contactPhone
       }
     }
+
+    addJobSubmit(newJob);
+
+    toast.success("Job added successfully")
+
+
     return navigate ("./jobs")
   }
 
